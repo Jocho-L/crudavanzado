@@ -1,0 +1,38 @@
+1. Crear el proyecto con npm init-y
+2. Modificar package.json > main: app.js
+3. Crear archivos .gitignore, README.md
+4. Instalar las dependencias:
+
+  - body-parser : gestión de datos (form)
+  - ejs         : motor de plantilla
+  - express     : framework
+  - mysql2      : nueva versión acceso datos asíncrono
+  - nodemon     : inicia el servidor web
+
+  npm install d1 d2 dN
+  Luego de la instalacion verifique "dependencias" en el package.json
+
+5. Estructura de directorios
+    cnfog / public>js+css / routes / views>partials>header.ejs+footer.ejs
+6. Agregar:
+
+  config : database.ks
+  public  
+  css : estilos.css
+  js  : funciones.js
+  routes
+    views
+      partials
+        header.ejs
+        footer.ejs
+      index.ejs
+      create.ejs
+      edit.ejs
+
+7. Abrir el archivo .gitignore y poner node_modules
+7. Construye tu repositorio (GIT)
+
+= Codificacion =
+
+8. Acceso a la BD -> databse.js
+9. Codificar App.js
